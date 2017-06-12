@@ -5,10 +5,10 @@ class Footer extends React.Component {
         return(
             <footer>
                 <p>
-                    Made by <a href="https://github.com/absolitudo" target="_blank">absolitudo</a> with react, redux, d3.
+                    Made by <a href="https://github.com/absolitudo" rel="noopener noreferrer" target="_blank">absolitudo</a> with react, redux, d3.
                 </p>
                 <p>
-                    <a href="https://github.com/absolitudo/map-data" target="_blank">Github repo</a>.
+                    <a href="https://github.com/absolitudo/meteorite-landings" rel="noopener noreferrer" target="_blank">Github repo</a>.
                 </p>
             </footer>
         )
