@@ -1,32 +1,25 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import "./styles/main.css"
-import { Provider } from "react-redux"
-import { createStore } from "redux"
+import React from "react";
+import ReactDOM from "react-dom";
+import "./styles/main.css";
+import { Provider } from "react-redux";
+import { createStore } from "redux";
 
 /* Components */
-import Graph from "./components/graph"
-import Footer from "./components/footer"
+import Graph from "./components/graph";
 
 /* Reducer */
-import reducer from "./reducer/reducer"
+import reducer from "./reducer/reducer";
 
 /* Store */
-const store = createStore(reducer)
-
-
-
-
-
+const store = createStore(reducer);
 
 class App extends React.Component {
     render() {
-        return(
+        return (
             <div>
                 <Graph />
-                <Footer />
             </div>
-        )
+        );
     }
 }
 
@@ -35,4 +28,4 @@ ReactDOM.render(
         <App />
     </Provider>,
     document.getElementById("root")
-)
+);

@@ -1,5 +1,1 @@
-# meteorite-landings
-
-Freecodecamp data visualisation challenge
-
-https://absolitudo.github.io/meteorite-landings/
+https://akoskoc.github.io/meteorite-landings/
